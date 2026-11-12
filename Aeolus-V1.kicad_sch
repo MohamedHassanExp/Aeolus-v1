@@ -1,0 +1,107 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b982e985-3de9-4139-9ac5-4497875f9d47")
+	(paper "A4")
+	(title_block
+		(title "Aeolus-V1")
+		(date "2026-01-20")
+		(rev "1")
+		(company "Mohamed Hamdan")
+	)
+	(lib_symbols)
+	(sheet
+		(at 59.69 61.214)
+		(size 57.15 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bed2cb86-45ce-4588-b596-f90a05db4424")
+		(property "Sheetname" "Power and Sensors"
+			(at 59.69 59.8674 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 59.69 111.3286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Aeolus-V1"
+				(path "/b982e985-3de9-4139-9ac5-4497875f9d47"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.608 60.96)
+		(size 57.404 50.546)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f3209ac7-e2ce-4ef0-9dc3-e86fb739e033")
+		(property "Sheetname" "MCU and Connectors"
+			(at 165.608 59.6134 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.3175)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu_conn.kicad_sch"
+			(at 165.608 112.0906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Aeolus-V1"
+				(path "/b982e985-3de9-4139-9ac5-4497875f9d47"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
