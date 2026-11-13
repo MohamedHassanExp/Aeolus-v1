@@ -45,7 +45,7 @@ Follow these instructions to view or modify the hardware design files locally.
 The repository is organized to separate the editable design files from the static manufacturing outputs:
 
 *   **Design Files:**
-     The Hardware/ directory contains the core KiCad project files, including the schematic (Aeolus-v1.kicad_sch), the physical layout (Aeolus-v1.kicad_pcb), and a PDF export of the design (Aeolus-v1.pdf).
+     The root directory contains the core KiCad project files, including the schematic (Aeolus-v1.kicad_sch), the physical layout (Aeolus-v1.kicad_pcb), and a PDF export of the design (Aeolus-v1.pdf).
 *    **Board Renders:**
       High-resolution 3D renders of the physical layout are available as **Aeolus-V1-PCB Isometric.png** and **Aeolus-V1-PCB top.png**.  
 *    **Manufacturing Files (Manufacturing/):** 
