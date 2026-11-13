@@ -5,6 +5,7 @@
 [![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)](https://www.espressif.com/)
 
 A custom-designed, compact ESP32-based IoT development board featuring integrated power management and sensor interfaces, complete with full schematic capture, layout, and manufacturing-ready fabrication files.
+
 ##  Table of Contents
 - [About the Project](#about-the-project)
 - [Tech Stack](#tech-stack)
@@ -46,9 +47,9 @@ The repository is organized to separate the editable design files from the stati
 *   **Design Files:**
      The Hardware/ directory contains the core KiCad project files, including the schematic (Aeolus-v1.kicad_sch), the physical layout (Aeolus-v1.kicad_pcb), and a PDF export of the design (Aeolus-v1.pdf).
 *    **Board Renders:**
-      High-resolution 3D renders of the physical layout are available as Aeolus-V1-PCB Isometric.png and Aeolus-V1-PCB top.png.  
+      High-resolution 3D renders of the physical layout are available as **Aeolus-V1-PCB Isometric.png** and **Aeolus-V1-PCB top.png**.  
 *    **Manufacturing Files (Manufacturing/):** 
       This directory contains everything a fabrication house like JLCPCB or PCBWay needs to manufacture and assemble the board:
       * **Aeolus-v1-gerber.rar:** The compressed Gerber layers and drill files for PCB fabrication.
       * **Aeolus-v1-BOM.csv:** The complete Bill of Materials for component sourcing and assembly.
-      * **Aeolus-V1-bottom-pos.csv:** and **Aeolus-V1-top-pos.csv:** The centroid/pick-and-place data for automated SMD assembly.
+      * **Aeolus-V1-bottom-pos.csv** and **Aeolus-V1-top-pos.csv** The centroid/pick-and-place data for automated SMD assembly.
